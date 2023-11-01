@@ -7,11 +7,11 @@ public class BonusExercise {
         Scanner scn = new Scanner(System.in);
         String inputString = scn.nextLine();
 
-        printString(inputString);
+        printChar(inputString);
     }
 
     // einzelne Zeichen von inputSring ausgeben
-    public static void printString(String inputString) {
+    public static void printChar(String inputString) {
         for (int i = 0; i < inputString.length(); i++) {
             System.out.println(inputString.charAt(i));
 
